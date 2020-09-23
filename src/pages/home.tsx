@@ -33,7 +33,7 @@ function Home() {
         return (
         <div> 
             <StyledContainer>  
-                <StyledHeader>Hello Flexera</StyledHeader>
+                <StyledHeader>Hello World</StyledHeader>
                 {/* hand data prop down to child component */}
                 <RepoPicker data={data} />
             </StyledContainer>
