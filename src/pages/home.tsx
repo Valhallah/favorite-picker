@@ -18,7 +18,7 @@ const StyledHeader = styled.div`
 
 function Home() {
     const [data, setData] = useState([]);
-    //grab github data - user agent header wasn't needed
+    //grab github data
     useEffect(() => {   
         const fetchData = async () => {
         try {
